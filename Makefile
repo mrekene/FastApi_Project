@@ -6,7 +6,7 @@ format:
 	#format code
 	black *.py	mylib/*.py
 lint:
-	#flask8 or #pylint #(R=recommended, C=configuration)
+	#flask8 or #pylint #(--disable=R,C R=recommended, C=configuration)
 	pylint --disable=R,C *.py mylib/*.py #pylint *.py mylib/*.py
 test:
 	#test
