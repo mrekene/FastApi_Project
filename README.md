@@ -11,3 +11,4 @@ Hands on FastApi
 3. populate 'Makefile'
 4. Setup Continous Integration, i.e check code for issues like lint errors
 
+5. Build cli using python Fire Library './cli-fire.py --help' to test the logic
