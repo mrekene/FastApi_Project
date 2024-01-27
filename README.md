@@ -1,3 +1,5 @@
+[![python application test with Github actions](https://github.com/mrekene/FastApi_Project/actions/workflows/devops.yml/badge.svg)](https://github.com/mrekene/FastApi_Project/actions/workflows/devops.yml)
+
 # FastApi_Project
 Hands on FastApi
 ## Scafflod
