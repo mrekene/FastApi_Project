@@ -3,6 +3,7 @@ from textblob import TextBlob
 import nltk
 
 nltk.download("brown")
+nltk.download('punkt')
 
 
 def wiki(name="war Goddess", length=1):
