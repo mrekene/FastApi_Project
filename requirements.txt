@@ -7,4 +7,5 @@ fire==0.5.0
 fastapi==0.109.0
 uvicorn==0.27.0
 httpx==0.26.0
-
+textblob==0.17.1
+nltk==3.8.1
