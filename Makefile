@@ -2,6 +2,9 @@ install:
 	#install commands
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
+install-textblob:
+	pip install -U textblob
+	python -m textblob.download_corpora
 format:
 	#format code
 	black *.py	mylib/*.py

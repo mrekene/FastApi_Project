@@ -1,9 +1,9 @@
 import wikipedia
 from textblob import TextBlob
-import nltk
+#import nltk
 
-nltk.download("brown")
-nltk.download('punkt')
+#nltk.download("brown")
+#nltk.download('punkt')
 
 
 def wiki(name="war Goddess", length=1):
