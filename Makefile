@@ -7,7 +7,7 @@ format:
 	black *.py	mylib/*.py
 lint:
 	#flask8 or #pylint #(--disable=R,C R=recommended, C=configuration)
-	#pylint --disable=R,C *.py mylib/*.py #pylint *.py mylib/*.py
+	pylint --disable=R,C *.py mylib/*.py #pylint *.py mylib/*.py
 test:
 	#test
 	python -m pytest -vv --cov=mylib --cov=main test_*.py
